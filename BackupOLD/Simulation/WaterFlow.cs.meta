@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3180c79fa65769f4f9bfec7daf17bcc9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - material: {fileID: 2100000, guid: 4b0e9b3cf6ec99b4ba2c69509f53ae2b, type: 2}
+  - heightmap: {fileID: 8400000, guid: e6da635c32b78644ea4edff6bbce65b1, type: 2}
+  - heightmap1: {fileID: 2800000, guid: c2afb7af5647d6840a4a6f5460aa6a6a, type: 3}
+  - output: {fileID: 2800000, guid: dd8be51a3c865444d8e3f9feb0523a4e, type: 3}
+  - buffer: {fileID: 8400000, guid: c55b4950654c83843b775b50ff78f395, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

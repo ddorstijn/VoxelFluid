@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/WaterSim/InteractiveErosion.unity
+    guid: 29d5bee1bb4e47c4298fda8a0a392026

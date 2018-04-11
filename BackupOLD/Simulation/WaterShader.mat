@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WaterShader
+  m_Shader: {fileID: 4800000, guid: ac14bf3f5b7a31941855dbd3e2a8a528, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkyBox:
+        m_Texture: {fileID: 8900000, guid: 45ad6672818e0aa4ea0d515613a67072, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _FresnelFactor: 4
+    - _MinWaterHt: 0.2
+    - _SunSpecStr: 0.5
+    - _WaterOpacity: 40
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _SedimentColor: {r: 0.47014928, g: 0.31802917, b: 0.11929162, a: 1}
+    - _SkyColor: {r: 0.5824237, g: 0.7300782, b: 0.9402985, a: 1}
+    - _WaterAbsorption: {r: 0.259, g: 0.086, b: 0.113, a: 1000}
+    - _WaterColor: {r: 0, g: 0.21641791, b: 0.19825694, a: 1}

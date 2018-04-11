@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LandMat
+  m_Shader: {fileID: 4800000, guid: b7b03b3bcc2fce74da354a84683e3231, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GrassTex:
+        m_Texture: {fileID: 2800000, guid: 7b69db224dc2aa04692cb2f5a97df548, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RockTex:
+        m_Texture: {fileID: 2800000, guid: dedbc407c7b54cd41a1c6a6a0a1593cf, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ScaleY: 0.5
+    - _Shininess: 0.09
+    - _SlopeDetection: 0.29
+    m_Colors:
+    - _DiffuseColor: {r: 0.2082836, g: 0.3602941, b: 0.1880947, a: 1}
+    - _DiffuseColor2: {r: 0.88235295, g: 0.7850346, b: 0.7850346, a: 1}
+    - _LandColor: {r: 0.30597013, g: 0.21834025, b: 0.08220094, a: 1}
+    - _LayerColor0: {r: 0.29850745, g: 0.20422882, b: 0.10024504, a: 1}
+    - _LayerColor1: {r: 0.5522388, g: 0.37309694, b: 0.09478725, a: 1}
+    - _LayerColor2: {r: 0.8432836, g: 0.6877588, b: 0.2580196, a: 1}
+    - _LayerColor3: {r: 0.92537314, g: 0.8790127, b: 0.7182, a: 1}
+    - _SandColor: {r: 0.880597, g: 0.7675468, b: 0.072287805, a: 1}
+    - _SpecColor: {r: 0.7607844, g: 0.87843144, b: 0.9333334, a: 1}
