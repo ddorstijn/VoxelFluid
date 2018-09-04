@@ -27,24 +27,24 @@ public class FluidSim : MonoBehaviour
     RenderTexture[] waterMap;
 
     // Higher resolution gives more accurate simulation
-    const int TEX_SIZE = 2048;
-        
+    const int TEX_SIZE = 1024;
+
     // The heightmap gets scaled with this factor
     const int TERRAIN_HEIGHT = 128;
-        
+
     // The size of the terrain
-    const int TOTAL_GRID_SIZE = 1024;
+    const int TOTAL_GRID_SIZE = 512;
 
     // Delta time is to slow so we speed it up a little
     const float TIME_SCALE = 7.5f;
 
-    const int GRID_SIZE = 256;
+    const int GRID_SIZE = 128;
     const float PIPE_LENGTH = 1.0f;
     const float CELL_LENGTH = 1.0f;
-    const float CELL_AREA = 1.0f; 
+    const float CELL_AREA = 1.0f;
     const float GRAVITY = 9.81f;
 
-    // A lot of the maps need data from the previous timestep. 
+    // A lot of the maps need data from the previous timestep.
     // This is why we need to textures. One to read from and one to write to.
     const int READ = 0;
     const int WRITE = 1;
@@ -124,9 +124,9 @@ public class FluidSim : MonoBehaviour
         CalculateFlow();
 
         // Set the maps to bilinear filtering so it looks good when rendered
-        terrainMap.filterMode = FilterMode.Bilinear;
-        waterMap[0].filterMode = FilterMode.Bilinear;
-        waterMap[1].filterMode = FilterMode.Bilinear;
+        terrainMap.filterMode = FilterMode.Trilinear;
+        waterMap[0].filterMode = FilterMode.Trilinear;
+        waterMap[1].filterMode = FilterMode.Trilinear;
 
         // Scale y to match texture size and terrain size
         float scaleY = TOTAL_GRID_SIZE / (float)TEX_SIZE;
